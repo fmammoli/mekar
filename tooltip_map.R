@@ -92,6 +92,7 @@ map
 res <- mapview::mapshot2(map, url = paste0(file.path(getwd(), "index.html")))
 browseURL(paste0(file.path(getwd(), "index.html")))
 
+
 # End creating leaflet
 
 my_aoi <- st_as_sfc(st_bbox(mekar))
