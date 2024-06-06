@@ -9,3 +9,11 @@ There are some experiments:
   You can dowload ETH data using R but its slow, you should donwload directly from the ETH portal through the link:
   [https://www.research-collection.ethz.ch/handle/20.500.11850/609802](https://www.research-collection.ethz.ch/handle/20.500.11850/609802) 
   Than enter the cloud optimized geotiffs link.
+
+The canopy_height.R script produces interactive 3D scenes and videos linke:
+
+<video src="/output/output_movie.mp4" width="600" height="400" controls></video>
+
+<video src="/output/output_movie2.mp4" width="600" height="400" controls></video>
+
+<video src="/output/output_movie3.mp4" width="600" height="400" controls></video>
