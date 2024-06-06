@@ -95,15 +95,16 @@ browseURL(paste0(file.path(getwd(), "index.html")))
 
 # End creating leaflet
 
-my_aoi <- st_as_sfc(st_bbox(mekar))
-my_aoi
-sa_landsat <- get_landsat_imagery(
-  aoi,
-  start_date = as.character("2024-04-01"),
-  end_date = as.character("2024-04-31"),
-  output_filename = tempfile(fileext = ".tif")
-)
-sa_landsat
+#This is not working
+# my_aoi <- st_as_sfc(st_bbox(mekar))
+# my_aoi
+# sa_landsat <- get_landsat_imagery(
+#   my_aoi,
+#   start_date = as.character("2024-04-01"),
+#   end_date = as.character("2024-04-31"),
+#   output_filename = tempfile(fileext = ".tif")
+# )
+# sa_landsat
 
 elev <- elevatr::get_elev_raster(mekar, z = 12)
 
@@ -123,7 +124,8 @@ label_data <- tibble::tibble(X = st_coordinates(files_sf)[,"X"], Y = st_coordina
 
 label_data[1,]
 print(label_data)
-labels <- label_data %>% as.data.frame() %>% purrr::map(function(item) {
+labels <- label_data %>% as.data.frame() %>%
+  purrr::map(function(item) {
   print(item[1])
   # render_label(
   #   elmat,
@@ -142,7 +144,7 @@ labels <- label_data %>% as.data.frame() %>% purrr::map(function(item) {
 })
 print(labels)
 render_label(montereybay, x = 50, y = 270, z = 1000, zscale = 50,  textcolor = "white", linecolor = "white",
-             text = "Monterey Canyon", relativez = FALSE, textsize = 2, linewidth = 5) 
+             text = "Some Text", relativez = FALSE, textsize = 2, linewidth = 5)
 
 
 render_label(elmat, x = label_data[20, "X"], y = label_data[20, "Y"], z = 10000, zscale = 50,  textcolor = "black", linecolor = "black",

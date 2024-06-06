@@ -3,3 +3,9 @@
 /.vscode
 
 .DS_STORE
+
+/lidar
+/ETH_canopy_height
+/geo_sampa
+/SIRGAS_SHP_quadriculamdt
+/audio
