@@ -12,8 +12,14 @@ There are some experiments:
 
 The canopy_height.R script produces interactive 3D scenes and videos linke:
 
-<video src="./output/output_movie.mp4" width="600" height="400" controls></video>
 
-<video src="./output/output_movie2.mp4" width="600" height="400" controls></video>
+https://github.com/fmammoli/mekar/assets/1368669/aa04769b-d4ee-4e30-96eb-b5f534229287
 
-<video src="./output/output_movie3.mp4" width="600" height="400" controls></video>
+
+
+https://github.com/fmammoli/mekar/assets/1368669/89f57e3f-1619-4681-b2e2-c033272c0aaa
+
+
+
+https://github.com/fmammoli/mekar/assets/1368669/b300e1c8-e04d-482d-9e53-d21a7bc8130c
+
