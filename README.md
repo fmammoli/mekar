@@ -1,4 +1,4 @@
-# This is prototype for plotting geotagged content on top of rayshader renderings
+# This is a prototype for plotting geotagged content on top of rayshader renderings
 
 There are some experiments:
 - main.R is just a sketch.
@@ -12,8 +12,8 @@ There are some experiments:
 
 The canopy_height.R script produces interactive 3D scenes and videos linke:
 
-<video src="/output/output_movie.mp4" width="600" height="400" controls></video>
+<video src="./output/output_movie.mp4" width="600" height="400" controls></video>
 
-<video src="/output/output_movie2.mp4" width="600" height="400" controls></video>
+<video src="./output/output_movie2.mp4" width="600" height="400" controls></video>
 
-<video src="/output/output_movie3.mp4" width="600" height="400" controls></video>
+<video src="./output/output_movie3.mp4" width="600" height="400" controls></video>
